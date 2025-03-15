@@ -13,8 +13,8 @@ spec:
         name: wasm-demo
       images:
         registry: remote
-        x86: ghcri.io/datasance/llamaedge-api-server:latest 
-        arm: ghcri.io/datasance/llamaedge-api-server:latest
+        x86: ghcr.io/datasance/llamaedge-api-server:latest 
+        arm: ghcr.io/datasance/llamaedge-api-server:latest
       container:
         rootHostAccess: false
         runtime: io.containerd.wasmedge.v1
